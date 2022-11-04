@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/package_info_plus/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/package_info_plus/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/package_info_plus/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/package_info_plus/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

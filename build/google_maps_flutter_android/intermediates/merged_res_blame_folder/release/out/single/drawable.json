@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/google_maps_flutter_android/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

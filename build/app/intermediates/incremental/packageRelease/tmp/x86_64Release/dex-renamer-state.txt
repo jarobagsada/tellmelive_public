@@ -1,0 +1,10 @@
+#Wed Nov 02 19:45:08 IST 2022
+base.2=/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/dex/release/mergeDexRelease/classes3.dex
+path.2=classes3.dex
+base.1=/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

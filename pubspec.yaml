@@ -1,0 +1,333 @@
+name: miumiu
+description: A new Flutter project
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.# A version number is three numbers separated by dots, like 1.2.43# followed by an optional build number separated by a +.# Both the version and the builder number may be overridden in flutter# build by specifying --build-name and --build-number, respectively.# In Android, build-name is used as versionName while build-number used as versionCode.# Read more about Android versioning at https://developer.android.com/studio/publish/versioning# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.# Read more about iOS versioning at# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.25+25
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application. # Use with the CupertinoIcons class for iOS style icons.
+  #
+
+  cupertino_icons: ^1.0.2
+  progress_dialog: ^1.2.4
+  avatar_glow: ^1.2.0
+  app_settings: ^4.1.0
+  dotted_border: ^2.0.0
+  provider: ^6.0.3
+  country_code_picker: ^2.0.1
+  flutter_facebook_login: ^3.0.0
+  translator: ^0.1.5
+  flutter_absolute_path: ^1.0.6
+  device_info: ^2.0.0
+  shared_preferences: ^2.0.5
+  carousel_slider: ^2.3.4
+  intl: ^0.17.0
+  data_connection_checker: ^0.3.4
+  socket_io_client: ^1.0.0
+  webview_flutter: ^3.0.4
+  flutter_exif_rotation: ^0.4.1
+  devicelocale: ^0.4.1
+  percent_indicator: ^3.0.1
+  numberpicker: ^2.1.1
+  image_cropper: ^1.3.1
+  android_intent: ^2.0.0
+  pimp_my_button: ^1.0.0
+  animated_splash_screen: ^1.1.0
+  simple_animations: ^3.1.1
+  rflutter_alert: ^2.0.2
+  image: ^3.0.0-nullsafety
+
+  flutter_link_preview:
+    git: 'https://github.com/ItzNotABug/flutter_link_preview'
+  firebase_messaging: any
+  firebase_core: ^1.22.0
+  firebase_auth: ^3.9.0
+  cloud_firestore: any
+  location: ^4.0.0
+  http: ^0.13.0
+  google_maps_flutter: ^2.1.2
+
+  image_picker: ^0.7.0
+  geocoding: ^2.0.0
+  url_launcher: ^6.0.0
+  firebase_analytics: ^8.0.0
+  store_redirect: ^2.0.0
+  path_provider: ^2.0.0
+  flutter_cache_manager: ^3.0.1
+  cached_network_marker: ^0.1.1
+  flutter_google_places: ^0.3.0
+  country_codes: ^2.0.1
+  visibility_detector: ^0.3.3
+  flutter_app_badger: ^1.3.0
+  intro_slider: ^3.0.3
+  cached_network_image: ^3.2.1
+  pin_input_text_field: ^4.1.2
+  fluttertoast: ^8.0.8
+  pin_code_text_field: ^1.8.0
+  fancy_bottom_navigation: ^0.3.3
+
+  widget_slider: ^0.1.0
+  flutter_svg: ^1.1.2
+  multi_image_picker: any
+  #flutter_easyloading: ^3.0.5
+  highlighter_coachmark: ^0.0.3
+  loading_indicator: ^3.1.0
+  flutter_holo_date_picker: ^1.0.6
+  alt_sms_autofill: ^1.0.0
+  # permission_handler: ^10.0.0
+  any_link_preview: ^2.0.9
+  photo_view: ^0.14.0
+  #flutter_local_notifications: any
+  audioplayers: ^0.20.1
+  dio: ^4.0.4
+  agora_rtc_engine: ^5.2.0
+  flutter_bloc: ^8.0.1
+  quiver: ^3.1.0
+  #permission_handler: any
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  upgrader: ^4.6.1
+  connectivity_plus: ^2.3.8
+  internet_connection_checker: any
+  permission_handler: ^4.3.0
+  flutter_ringtone_player: ^3.2.0
+  wakelock: ^0.5.6
+  #flutter_local_notifications: ^9.0.1
+  flutter_native_image: ^0.0.6+1
+  country_pickers: ^2.0.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assest/images/app_icon2.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assest/
+    - assest/locale/
+    - assest/images/
+    - assest/images_svg/
+    - assest/images/maximize.png
+    - assest/images/user_map.png
+    - assest/images/Outing.png
+    - assest/locale/en.json
+    - assest/locale/ar.json
+    - assest/locale/de.json
+    - assest/images/calendar_blue.png
+    - assest/images/calendar_grey.png
+    - assest/images/clock_blue.png
+    - assest/images/clock_grey.png
+    - assest/splash_bg.jpg
+    - assest/images/man.png
+    - assest/images/ma.png
+    - assest/images/av.png
+    - assest/images/woman.png
+    - assest/images/both.png
+    - assest/images/calendar 2.png
+    - assest/images/close.png
+    - assest/images/name.png
+    - assest/images/bg_img.jpg
+    - assest/images/NoIntrest.png
+    - assest/images/providingJob.png
+    - assest/images/job.png
+    - assest/images/woman_thumb.png
+    - assest/images/man_thumb.png
+    - assest/images/email 2.png
+    - assest/images/image.png
+    - assest/images/
+    - assest/images/right_arrow.png
+    - assest/images/user.png
+    - assest/images/cal.png
+    - assest/images/female.png
+    - assest/images/star.png
+    - assest/images/earth.png
+    - assest/images/cross.png
+    - assest/images/doodles.png
+    - assest/images/hand.png
+    - assest/images/activity.png
+    - assest/images/arrow.png
+    - assest/images/app_setting.png
+    - assest/images/logo.png
+    - assest/images/favourate.png
+    - assest/images/help.png
+    - assest/images/my_prefer.png
+    - assest/images/next.png
+    - assest/images/notification.png
+    - assest/images/user_2.png
+    - assest/images/user2.png
+    - assest/images/notification_2.png
+    - assest/images/home.png
+    - assest/images/face.png
+    - assest/images/chat.png
+    - assest/images/camera.png
+    - assest/images/multiuser.png
+    - assest/images/mood_happy.png
+    - assest/images/pin3.png
+    - assest/images/activity_2.png
+    - assest/images/clock.png
+    - assest/images/info.png
+    - assest/images/pin.png
+    - assest/images/logout.png
+    - assest/images/activity_wall.png
+    - assest/images/icon_filter.png
+    - assest/images/profile.png
+    - assest/images/premium.png
+    - assest/images/men.png
+    - assest/images/home_tellMeLive.png
+    - assest/images/women.png
+    - assest/images/language_background.jpg
+    - assest/images/tiktokColor.png
+    - assest/images/membar.png
+    - assest/images/gym.png
+    - assest/images/question.png
+    - assest/images/mood_bad.png
+    - assest/images/twitter.png
+    - assest/images/tik_tok.png
+    - assest/images/smartphone.png
+    - assest/images/linkedin.png
+    - assest/images/instagram.png
+    - assest/images/facebook.png
+    - assest/images/photograph.png
+    - assest/images/activity_appbar.jpg
+    - assest/images/1.jpg
+    - assest/images/2.jpg
+    - assest/images/3.jpg
+    - assest/images/hello.jpg
+    - assest/images/linkedin_color.png
+    - assest/images/insta_color.png
+    - assest/images/fb_color.png
+    - assest/images/tik_tok_color.png
+    - assest/images/twitter_color.png
+    - assest/images/plus.png
+    - assest/images/minus.png
+    - assest/images/acting.png
+    - assest/images/photo.png
+    - assest/images/ar-camera.png
+    - assest/images/app_icon.png
+    - assest/images/professionals.png
+    - assest/images/activity_setting.png
+    - assest/images/edit.png
+    - assest/images/favorites.png
+    - assest/images/match_profile.png
+    - assest/images/need_help.png
+    - assest/images/peoples.png
+    - assest/images/bg.png
+    - assest/images/edit_pink.png
+    - assest/images/setting.png
+    - assest/images/eng.png
+    - assest/images/flag.png
+    - assest/images/curve.png
+    - assest/images/proffesional.png
+    - assest/images/instagram_color.png
+    - assest/images/interest.png
+    - assest/images/gender.png
+    - assest/images/pin2.png
+    - assest/images/create_activity.png
+    - assest/images/calendar.png
+    - assest/images/language.png
+    - assest/images/user-name.png
+    - assest/images/telephone.png
+    - assest/images/phone.png
+    - assest/images/email.png
+    - assest/images/dob.png
+    - assest/images/phone1.png
+    - assest/images/mail.png
+    - assest/images/birthday.png
+    - assest/images/male.png
+    - assest/images/female1.png
+    - assest/images/tellme.png
+    - assest/images/app_icon2.png
+    - assest/images/dislike.png
+    - assest/images/next_ar.png
+    - assest/images/interests.png
+    - assest/images/professional interest.png
+    - assest/images/activity describe.png
+    - assest/images/profile-about.png
+    - assest/images/placeholder128.png
+    - assest/images/man_n.png
+    - assest/images/give-love.png
+    - assest/images/lifestyle.png
+    - assest/images/handshake.png
+    - assest/images/woman_n.png
+    - assest/images/newbg.png
+    - assest/images/blue_arrow.png
+    - assest/images/background_img.jpg
+    - assest/images/blueimage.png
+    - assest/images/map.png
+    - assest/sounds/ringlong.mp3
+
+
+# An image asset can refer to one or more resolution-specific "variants", see
+# https://flutter.dev/assets-and-images/#resolution-aware.
+
+# For details regarding adding assets from package dependencies, see
+# https://flutter.dev/assets-and-images/#from-packages
+
+# To add custom fonts to your application, add a fonts section here,
+# in this "flutter" section. Each entry in this list should have a
+# "family" key with the font family name, and a "fonts" key with a
+# list giving the asset and other descriptors for the font. For
+# example:
+
+fonts:
+  - family: itc avant medium
+    fonts:
+      - asset: assest/fonts/ITC Avant Garde Gothic Medium.ttf
+  - family: Kelvetica Nobis
+    fonts:
+      - asset: assest/fonts/Kelvetica Nobis.ttf
+
+  - family: itc avant
+    fonts:
+      - asset: assest/fonts/itc-avant-garde-gothic-lt-bold.ttf
+
+  - family: Diamond Dust
+    fonts:
+      - asset: assest/fonts/diamond-dust.ttf
+  - family: OpenSans Regular
+    fonts:
+      - asset: assest/fonts/open-sans.regular.ttf
+
+  - family: OpenSans Bold
+    fonts:
+      - asset: assest/fonts/open-sans.bold.ttf weight:700
+
+  - family: OpenSans SemiBold
+    fonts:
+      - asset: assest/fonts/OpenSans-SemiBold.ttf weight:600
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

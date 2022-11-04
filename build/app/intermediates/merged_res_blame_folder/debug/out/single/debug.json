@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/drawable-v21_ic_notify.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/drawable-v21/ic_notify.png"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/app/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

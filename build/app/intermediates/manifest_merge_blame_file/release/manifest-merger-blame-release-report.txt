@@ -1,0 +1,849 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tml.miumiu"
+4    android:versionCode="4025"
+5    android:versionName="1.0.25" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:9:5-81
+17-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:9:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:11:5-65
+19-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:11:22-62
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:12:5-66
+20-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:12:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:13:5-79
+21-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:13:22-76
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:14:5-79
+22-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:14:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:15:5-81
+23-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:15:22-78
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:16:5-71
+24-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:16:22-68
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:17:5-80
+25-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:17:22-77
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:18:5-76
+26-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:18:22-73
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:19:5-68
+27-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:19:22-65
+28    <!-- <uses-permission android:name="android.permission.RECEIVE_SMS" /> -->
+29    <!-- <uses-permission android:name="android.permission.SEND_SMS"/> -->
+30    <!-- <uses-permission android:name="android.permission.WRITE_SMS" /> -->
+31    <!-- <uses-permission android:name="android.permission.READ_SMS" /> -->
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:31:5-68
+32-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:31:22-65
+33    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+33-->[:agora_rtc_engine] /Applications/Narendra Flutter Project/tell_me_live/build/agora_rtc_engine/intermediates/library_manifest/release/AndroidManifest.xml:17:5-19:47
+33-->[:agora_rtc_engine] /Applications/Narendra Flutter Project/tell_me_live/build/agora_rtc_engine/intermediates/library_manifest/release/AndroidManifest.xml:18:9-70
+34    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+34-->[:alt_sms_autofill] /Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/library_manifest/release/AndroidManifest.xml:8:5-77
+34-->[:alt_sms_autofill] /Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/library_manifest/release/AndroidManifest.xml:8:22-74
+35    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+35-->[:alt_sms_autofill] /Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/library_manifest/release/AndroidManifest.xml:9:5-70
+35-->[:alt_sms_autofill] /Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/library_manifest/release/AndroidManifest.xml:9:22-67
+36    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+36-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:26:5-77
+36-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:26:22-74
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+37-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:5-82
+37-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:29:22-79
+38    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+39    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+40    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+41    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+42    <!-- for Samsung -->
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/72aa91878c7d8850d8414e08c11e3905/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+59    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+59-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/57cbd62754e6382f3425e2d8836dbc85/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:5-79
+59-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/57cbd62754e6382f3425e2d8836dbc85/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:22-76
+60    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+60-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+60-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+61
+62    <uses-feature
+62-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+63        android:glEsVersion="0x00020000"
+63-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+64        android:required="true" />
+64-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+65
+66    <queries>
+66-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+67
+68        <!-- Needs to be explicitly declared on Android R+ -->
+69        <package android:name="com.google.android.apps.maps" />
+69-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+69-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+70    </queries>
+71
+72    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+72-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:11:5-77
+72-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:11:22-74
+73
+74    <application
+74-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:33:5-125:19
+75        android:name="com.tml.miumiu.Application"
+75-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:34:9-36
+76        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+76-->[androidx.core:core:1.6.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/AndroidManifest.xml:24:18-86
+77        android:hardwareAccelerated="false"
+77-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:36:9-44
+78        android:icon="@mipmap/ic_launcher"
+78-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:39:9-43
+79        android:label="@string/app_name"
+79-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:38:9-41
+80        android:largeHeap="true"
+80-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:37:9-33
+81        android:supportsRtl="true"
+81-->[com.facebook.android:facebook-login:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/12f4c7e21539aa328a64fa20c3cba601/jetified-facebook-login-5.5.1/AndroidManifest.xml:28:18-44
+82        android:usesCleartextTraffic="true" >
+82-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:35:9-44
+83        <meta-data
+83-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:40:9-41:70
+84            android:name="com.google.android.geo.API_KEY"
+84-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:40:20-65
+85            android:value="AIzaSyAGtFtbnppF8eAPadjGU_ZcQAL0C8RrYvg" />
+85-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:41:13-68
+86        <meta-data
+86-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:43:9-44:62
+87            android:name="com.google.firebase.messaging.default_notification_channel_id"
+87-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:43:20-96
+88            android:value="@string/default_channel_id" />
+88-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:44:17-59
+89        <!--
+90            <meta-data
+91            android:name="com.google.firebase.messaging.default_notification_channel"
+92            android:value="@string/default_channel_id" />
+93        -->
+94
+95        <meta-data
+95-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:49:9-51:54
+96            android:name="com.google.firebase.messaging.default_notification_icon"
+96-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:50:13-83
+97            android:resource="@drawable/ic_notify" />
+97-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:51:13-51
+98
+99        <activity
+99-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:53:9-86:20
+100            android:name="com.tml.miumiu.MainActivity"
+100-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:54:13-41
+101            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+101-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:58:13-163
+102            android:exported="true"
+102-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:55:13-36
+103            android:hardwareAccelerated="true"
+103-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:59:13-47
+104            android:launchMode="singleTop"
+104-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:56:13-43
+105            android:theme="@style/LaunchTheme"
+105-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:57:13-47
+106            android:windowSoftInputMode="adjustResize" >
+106-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:60:13-55
+107
+108            <!--
+109                 Specifies an Android theme to apply to this Activity as soon as
+110                 the Android process has started. This theme is visible to the user
+111                 while the Flutter UI initializes. After that, this theme continues
+112                 to determine the Window background behind the Flutter UI.
+113            -->
+114            <meta-data
+114-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:65:13-68:17
+115                android:name="io.flutter.embedding.android.NormalTheme"
+115-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:66:15-70
+116                android:resource="@style/NormalTheme" />
+116-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:67:15-52
+117            <!--
+118                 Displays an Android View that continues showing the launch screen
+119                 Drawable until Flutter paints its first frame, then this splash
+120                 screen fades out. A splash screen is useful to avoid any visual
+121                 gap between the end of Android's launch screen and the painting of
+122                 Flutter's first frame.
+123            -->
+124            <!--
+125              <meta-data
+126              android:name="io.flutter.embedding.android.SplashScreenDrawable"
+127              android:resource="@drawable/launch_background"
+128              />
+129            -->
+130            <intent-filter>
+130-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:78:13-81:29
+131                <action android:name="android.intent.action.MAIN" />
+131-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:79:17-68
+131-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:79:25-66
+132
+133                <category android:name="android.intent.category.LAUNCHER" />
+133-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:80:17-76
+133-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:80:27-74
+134            </intent-filter>
+135            <intent-filter>
+135-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:82:13-85:29
+136                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+136-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:83:17-69
+136-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:83:25-66
+137
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:17-76
+138-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:27-73
+139            </intent-filter>
+140        </activity>
+141        <!--
+142             Don't delete the meta-data below.
+143             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+144        -->
+145        <meta-data
+145-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:89:9-91:33
+146            android:name="flutterEmbedding"
+146-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:90:13-44
+147            android:value="2" />
+147-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:91:13-30
+148        <meta-data
+148-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:92:14-93:54
+149            android:name="com.facebook.sdk.ApplicationId"
+149-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:92:25-70
+150            android:value="@string/facebook_app_id" />
+150-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:93:13-52
+151
+152        <activity
+152-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:95:9-98:71
+153            android:name="com.yalantis.ucrop.UCropActivity"
+153-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:96:13-60
+154            android:screenOrientation="portrait"
+154-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:97:13-49
+155            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+155-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:98:13-69
+156        <activity
+156-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:100:9-105:15
+157            android:name="com.facebook.FacebookActivity"
+157-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:100:19-63
+158            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+158-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:101:13-114
+159            android:exported="true"
+159-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:104:13-36
+160            android:label="@string/app_name"
+160-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:103:13-45
+161            android:theme="@style/com_facebook_activity_theme" />
+161-->[com.facebook.android:facebook-common:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f08d99dcf797d5073a623429b5d31212/jetified-facebook-common-5.5.1/AndroidManifest.xml:32:13-63
+162        <activity
+162-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:106:9-115:20
+163            android:name="com.facebook.CustomTabActivity"
+163-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:107:13-58
+164            android:exported="true" >
+164-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:108:13-36
+165            <intent-filter>
+165-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:109:13-114:29
+166                <action android:name="android.intent.action.VIEW" />
+166-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:17-69
+166-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:25-66
+167
+168                <category android:name="android.intent.category.DEFAULT" />
+168-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:17-76
+168-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:27-73
+169                <category android:name="android.intent.category.BROWSABLE" />
+169-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:17-78
+169-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:27-75
+170
+171                <data android:scheme="@string/fb_login_protocol_scheme" />
+171-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:17-75
+171-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:23-72
+172            </intent-filter>
+173        </activity>
+174
+175        <service
+175-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:118:9-124:19
+176            android:name="io.flutter.plugins.AppFireBaseService"
+176-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:119:13-65
+177            android:exported="false" >
+177-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:120:13-37
+178            <intent-filter>
+178-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:121:13-123:29
+179                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+179-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:17-78
+179-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:25-75
+180            </intent-filter>
+181        </service>
+182        <service
+182-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:12:9-15:72
+183            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+183-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:13:13-107
+184            android:exported="false"
+184-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+185            android:permission="android.permission.BIND_JOB_SERVICE" />
+185-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:15:13-69
+186        <service
+186-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:16:9-22:19
+187            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+187-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:17:13-97
+188            android:exported="false" >
+188-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+189            <intent-filter>
+189-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:121:13-123:29
+190                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+190-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:17-78
+190-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:25-75
+191            </intent-filter>
+192        </service>
+193
+194        <receiver
+194-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:24:9-31:20
+195            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+195-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:25:13-98
+196            android:exported="true"
+196-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:26:13-36
+197            android:permission="com.google.android.c2dm.permission.SEND" >
+197-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:27:13-73
+198            <intent-filter>
+198-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+199                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+199-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+199-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+200            </intent-filter>
+201        </receiver>
+202
+203        <service
+203-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:9-37:19
+204            android:name="com.google.firebase.components.ComponentDiscoveryService"
+204-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:33:18-89
+205            android:directBootAware="true"
+205-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+206            android:exported="false" >
+206-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:55:13-37
+207            <meta-data
+207-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:34:13-36:85
+208                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+208-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:35:17-128
+209                android:value="com.google.firebase.components.ComponentRegistrar" />
+209-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:36:17-82
+210            <meta-data
+210-->[:cloud_firestore] /Applications/Narendra Flutter Project/tell_me_live/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+211                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+211-->[:cloud_firestore] /Applications/Narendra Flutter Project/tell_me_live/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[:cloud_firestore] /Applications/Narendra Flutter Project/tell_me_live/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+213            <meta-data
+213-->[:firebase_analytics] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+214                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+214-->[:firebase_analytics] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-127
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[:firebase_analytics] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+216            <meta-data
+216-->[:firebase_auth] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+217                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+217-->[:firebase_auth] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[:firebase_auth] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_auth/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+219            <meta-data
+219-->[:firebase_core] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+220                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+220-->[:firebase_core] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[:firebase_core] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:56:13-58:85
+223                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+223-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:57:17-119
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:58:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:67:13-69:85
+226                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+226-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:68:17-109
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:69:17-82
+228            <meta-data
+228-->[com.google.firebase:firebase-firestore:24.2.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6173c10e6a43333829b8b774746d50c4/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:20:13-22:85
+229                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+229-->[com.google.firebase:firebase-firestore:24.2.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6173c10e6a43333829b8b774746d50c4/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:21:17-111
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-firestore:24.2.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6173c10e6a43333829b8b774746d50c4/jetified-firebase-firestore-24.2.2/AndroidManifest.xml:22:17-82
+231            <meta-data
+231-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/57cbd62754e6382f3425e2d8836dbc85/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+232                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+232-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/57cbd62754e6382f3425e2d8836dbc85/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/57cbd62754e6382f3425e2d8836dbc85/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ea3aa9996c056d2bc47a640afccb727f/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:28:13-30:85
+235                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+235-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ea3aa9996c056d2bc47a640afccb727f/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:29:17-115
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-datatransport:18.1.5] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ea3aa9996c056d2bc47a640afccb727f/jetified-firebase-datatransport-18.1.5/AndroidManifest.xml:30:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-installations:17.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/46cd6dcc21ad36dc757e4329eedbb296/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+238                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+238-->[com.google.firebase:firebase-installations:17.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/46cd6dcc21ad36dc757e4329eedbb296/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-installations:17.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/46cd6dcc21ad36dc757e4329eedbb296/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+240        </service>
+241
+242        <provider
+242-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:39:9-43:38
+243            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+243-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:40:13-102
+244            android:authorities="com.tml.miumiu.flutterfirebasemessaginginitprovider"
+244-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:41:13-88
+245            android:exported="false"
+245-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:42:13-37
+246            android:initOrder="99" />
+246-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:43:13-35
+247        <provider
+247-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+248            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+248-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+249            android:authorities="com.tml.miumiu.flutter.image_provider"
+249-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+250            android:exported="false"
+250-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+251            android:grantUriPermissions="true" >
+251-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+252            <meta-data
+252-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+253                android:name="android.support.FILE_PROVIDER_PATHS"
+253-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+254                android:resource="@xml/flutter_image_picker_file_paths" />
+254-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+255        </provider>
+256
+257        <activity
+257-->[:url_launcher_android] /Applications/Narendra Flutter Project/tell_me_live/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+258            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+258-->[:url_launcher_android] /Applications/Narendra Flutter Project/tell_me_live/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+259            android:exported="false"
+259-->[:url_launcher_android] /Applications/Narendra Flutter Project/tell_me_live/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+260            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+260-->[:url_launcher_android] /Applications/Narendra Flutter Project/tell_me_live/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+261
+262        <service
+262-->[:location] /Applications/Narendra Flutter Project/tell_me_live/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+263            android:name="com.lyokone.location.FlutterLocationService"
+263-->[:location] /Applications/Narendra Flutter Project/tell_me_live/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+264            android:enabled="true"
+264-->[:location] /Applications/Narendra Flutter Project/tell_me_live/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+265            android:exported="false"
+265-->[:location] /Applications/Narendra Flutter Project/tell_me_live/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+266            android:foregroundServiceType="location" />
+266-->[:location] /Applications/Narendra Flutter Project/tell_me_live/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+267
+268        <uses-library
+268-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+269            android:name="androidx.window.extensions"
+269-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+270            android:required="false" />
+270-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+271        <uses-library
+271-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+272            android:name="androidx.window.sidecar"
+272-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+273            android:required="false" />
+273-->[androidx.window:window:1.0.0-beta04] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/6528ddee4e15bbd2316059f9e2d33015/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+274
+275        <provider
+275-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:12:9-20:20
+276            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+276-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:13:13-68
+277            android:authorities="com.tml.miumiu.fishbunfileprovider"
+277-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:14:13-71
+278            android:exported="false"
+278-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:15:13-37
+279            android:grantUriPermissions="true" >
+279-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:16:13-47
+280            <meta-data
+280-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+281                android:name="android.support.FILE_PROVIDER_PATHS"
+281-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+282                android:resource="@xml/provider_paths" />
+282-->[:image_picker] /Applications/Narendra Flutter Project/tell_me_live/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+283        </provider>
+284
+285        <activity
+285-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:22:9-25:51
+286            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+286-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:23:13-71
+287            android:label="@string/album"
+287-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:24:13-42
+288            android:theme="@style/FishBunTheme" />
+288-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:25:13-48
+289        <activity
+289-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:26:9-28:51
+290            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+290-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:27:13-73
+291            android:theme="@style/FishBunTheme" />
+291-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:28:13-48
+292        <activity
+292-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:29:9-31:54
+293            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+293-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:30:13-73
+294            android:theme="@style/DetailViewTheme" />
+294-->[com.sangcomz:FishBun:0.11.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/e1f841de7ceff8b5a646d4fd434b4aa7/jetified-FishBun-0.11.2/AndroidManifest.xml:31:13-51
+295
+296        <receiver
+296-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:32:9-39:20
+297            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+297-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:33:13-78
+298            android:exported="true"
+298-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:34:13-36
+299            android:permission="com.google.android.c2dm.permission.SEND" >
+299-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:35:13-73
+300            <intent-filter>
+300-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:28:13-30:29
+301                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+301-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:17-81
+301-->[:firebase_messaging] /Applications/Narendra Flutter Project/tell_me_live/build/firebase_messaging/intermediates/library_manifest/release/AndroidManifest.xml:29:25-78
+302            </intent-filter>
+303        </receiver>
+304        <!--
+305             FirebaseMessagingService performs security checks at runtime,
+306             but set to not exported to explicitly avoid allowing another app to call it.
+307        -->
+308        <service
+308-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:45:9-52:19
+309            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+309-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:46:13-82
+310            android:directBootAware="true"
+310-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:47:13-43
+311            android:exported="false" >
+311-->[com.google.firebase:firebase-messaging:23.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca890c7be720f4c828a3e8a136f91871/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:48:13-37
+312            <intent-filter android:priority="-500" >
+312-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:121:13-123:29
+313                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+313-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:17-78
+313-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:122:25-75
+314            </intent-filter>
+315        </service>
+316
+317        <activity
+317-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:27:9-44:20
+318            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+318-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:28:13-80
+319            android:excludeFromRecents="true"
+319-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:29:13-46
+320            android:exported="true"
+320-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:30:13-36
+321            android:launchMode="singleTask"
+321-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:31:13-44
+322            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+322-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:32:13-72
+323            <intent-filter>
+323-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:33:13-43:29
+324                <action android:name="android.intent.action.VIEW" />
+324-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:17-69
+324-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:25-66
+325
+326                <category android:name="android.intent.category.DEFAULT" />
+326-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:17-76
+326-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:27-73
+327                <category android:name="android.intent.category.BROWSABLE" />
+327-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:17-78
+327-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:27-75
+328
+329                <data
+329-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:17-75
+330                    android:host="firebase.auth"
+331                    android:path="/"
+332                    android:scheme="genericidp" />
+332-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:23-72
+333            </intent-filter>
+334        </activity>
+335        <activity
+335-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:45:9-62:20
+336            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+336-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:46:13-79
+337            android:excludeFromRecents="true"
+337-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:47:13-46
+338            android:exported="true"
+338-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:48:13-36
+339            android:launchMode="singleTask"
+339-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:49:13-44
+340            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+340-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:50:13-72
+341            <intent-filter>
+341-->[com.google.firebase:firebase-auth:21.0.7] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/d3643d5aae9b574c8d5eff0e97fc04af/jetified-firebase-auth-21.0.7/AndroidManifest.xml:51:13-61:29
+342                <action android:name="android.intent.action.VIEW" />
+342-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:17-69
+342-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:110:25-66
+343
+344                <category android:name="android.intent.category.DEFAULT" />
+344-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:17-76
+344-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:84:27-73
+345                <category android:name="android.intent.category.BROWSABLE" />
+345-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:17-78
+345-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:112:27-75
+346
+347                <data
+347-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:17-75
+348                    android:host="firebase.auth"
+349                    android:path="/"
+350                    android:scheme="recaptcha" />
+350-->/Applications/Narendra Flutter Project/tell_me_live/android/app/src/main/AndroidManifest.xml:113:23-72
+351            </intent-filter>
+352        </activity>
+353
+354        <provider
+354-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+355            android:name="com.google.firebase.provider.FirebaseInitProvider"
+355-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+356            android:authorities="com.tml.miumiu.firebaseinitprovider"
+356-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+357            android:directBootAware="true"
+357-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+358            android:exported="false"
+358-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+359            android:initOrder="100" />
+359-->[com.google.firebase:firebase-common:20.1.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/8ce5b410a05aec8d241310029ea26b6e/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+360
+361        <activity android:name="com.facebook.CustomTabMainActivity" />
+361-->[com.facebook.android:facebook-common:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f08d99dcf797d5073a623429b5d31212/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:9-71
+361-->[com.facebook.android:facebook-common:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f08d99dcf797d5073a623429b5d31212/jetified-facebook-common-5.5.1/AndroidManifest.xml:33:19-68
+362        <!--
+363         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+364         with the application context. This config is merged in with the host app's manifest,
+365         but there can only be one provider with the same authority activated at any given
+366         point; so if the end user has two or more different apps that use Facebook SDK, only the
+367         first one will be able to use the provider. To work around this problem, we use the
+368         following placeholder in the authority to identify each host application as if it was
+369         a completely different provider.
+370        -->
+371        <provider
+371-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:39:9-42:40
+372            android:name="com.facebook.internal.FacebookInitProvider"
+372-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:40:13-70
+373            android:authorities="com.tml.miumiu.FacebookInitProvider"
+373-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:41:13-72
+374            android:exported="false" />
+374-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:42:13-37
+375
+376        <receiver
+376-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:44:9-50:20
+377            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+377-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:45:13-86
+378            android:exported="false" >
+378-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:46:13-37
+379            <intent-filter>
+379-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:47:13-49:29
+380                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+380-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:17-95
+380-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:48:25-92
+381            </intent-filter>
+382        </receiver>
+383        <receiver
+383-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:51:9-58:20
+384            android:name="com.facebook.CampaignTrackingReceiver"
+384-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:52:13-65
+385            android:exported="true"
+385-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:53:13-36
+386            android:permission="android.permission.INSTALL_PACKAGES" >
+386-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:54:13-69
+387            <intent-filter>
+387-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:55:13-57:29
+388                <action android:name="com.android.vending.INSTALL_REFERRER" />
+388-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:17-79
+388-->[com.facebook.android:facebook-core:5.5.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/487875876bc5f6b27e507e12042a3e49/jetified-facebook-core-5.5.1/AndroidManifest.xml:56:25-76
+389            </intent-filter>
+390        </receiver>
+391        <receiver
+391-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+392            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+392-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+393            android:enabled="true"
+393-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+394            android:exported="false" >
+394-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+395        </receiver>
+396
+397        <service
+397-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+398            android:name="com.google.android.gms.measurement.AppMeasurementService"
+398-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+399            android:enabled="true"
+399-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+400            android:exported="false" />
+400-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+401        <service
+401-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+402            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+402-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+403            android:enabled="true"
+403-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+404            android:exported="false"
+404-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+405            android:permission="android.permission.BIND_JOB_SERVICE" />
+405-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/ca37e49dbdf069f5223d648cd030d246/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+406
+407        <activity
+407-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+408            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+408-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+409            android:excludeFromRecents="true"
+409-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+410            android:exported="false"
+410-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+411            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+411-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+412        <!--
+413            Service handling Google Sign-In user revocation. For apps that do not integrate with
+414            Google Sign-In, this service will never be started.
+415        -->
+416        <service
+416-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+417            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+417-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+418            android:exported="true"
+418-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+419            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+419-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+420            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+420-->[com.google.android.gms:play-services-auth:18.1.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+421        <uses-library
+421-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+422            android:name="org.apache.http.legacy"
+422-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+423            android:required="false" />
+423-->[com.google.android.gms:play-services-maps:18.0.2] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/fe6b7cabf96ab04ef6dd71891608e2b8/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+424
+425        <activity
+425-->[com.google.android.gms:play-services-base:18.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+426            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+426-->[com.google.android.gms:play-services-base:18.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+427            android:exported="false"
+427-->[com.google.android.gms:play-services-base:18.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+428            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+428-->[com.google.android.gms:play-services-base:18.0.1] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/75ec9e1ed18abeafdae5e8a6313978d3/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+429
+430        <meta-data
+430-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/1ba91af7dcd719927f200fb6be4f1e9e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+431            android:name="com.google.android.gms.version"
+431-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/1ba91af7dcd719927f200fb6be4f1e9e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+432            android:value="@integer/google_play_services_version" />
+432-->[com.google.android.gms:play-services-basement:18.0.0] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/1ba91af7dcd719927f200fb6be4f1e9e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+433
+434        <service
+434-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:29:9-35:19
+435            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+435-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:30:13-103
+436            android:exported="false" >
+436-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:31:13-37
+437            <meta-data
+437-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:32:13-34:39
+438                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+438-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:33:17-94
+439                android:value="cct" />
+439-->[com.google.android.datatransport:transport-backend-cct:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/913846730826b6a94040c59233ca81e5/jetified-transport-backend-cct-3.1.6/AndroidManifest.xml:34:17-36
+440        </service>
+441        <service
+441-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:26:9-30:19
+442            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+442-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:27:13-117
+443            android:exported="false"
+443-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:28:13-37
+444            android:permission="android.permission.BIND_JOB_SERVICE" >
+444-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:29:13-69
+445        </service>
+446
+447        <receiver
+447-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:32:9-34:40
+448            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+448-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:33:13-132
+449            android:exported="false" />
+449-->[com.google.android.datatransport:transport-runtime:3.1.6] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/3ea717399f17606e7329fa91e1f5a170/jetified-transport-runtime-3.1.6/AndroidManifest.xml:34:13-37
+450
+451        <activity
+451-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:14:9-19:64
+452            android:name="io.agora.rtc.ss.impl.ScreenSharing$LocalScreenCaptureAssistantActivity"
+452-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:15:13-98
+453            android:configChanges="screenSize|orientation"
+453-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:16:13-59
+454            android:exported="false"
+454-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:17:13-37
+455            android:screenOrientation="fullUser"
+455-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:18:13-49
+456            android:theme="@android:style/Theme.Translucent" />
+456-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:19:13-61
+457
+458        <service
+458-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:21:9-28:19
+459            android:name="io.agora.rtc.ss.impl.LocalScreenSharingService"
+459-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:22:13-74
+460            android:exported="false"
+460-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:23:13-37
+461            android:foregroundServiceType="mediaProjection" >
+461-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:24:13-60
+462            <intent-filter>
+462-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:25:13-27:29
+463                <action android:name="android.intent.action.screenshare" />
+463-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:26:17-76
+463-->[io.agora.rtc:full-screen-sharing:3.7.0.3] /Users/kdpro/.gradle/caches/transforms-2/files-2.1/f2ae1ec4ec02f3ed0b28b21dce253a3e/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml:26:25-73
+464            </intent-filter>
+465        </service>
+466    </application>
+467
+468</manifest>

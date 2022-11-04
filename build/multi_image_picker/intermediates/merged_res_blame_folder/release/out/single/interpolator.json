@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/369e62e360f99dd59300f7f5a5a3d499/material-1.0.0/res/interpolator/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/369e62e360f99dd59300f7f5a5a3d499/material-1.0.0/res/interpolator/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/369e62e360f99dd59300f7f5a5a3d499/material-1.0.0/res/interpolator/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/multi_image_picker/intermediates/res/merged/release/interpolator/mtrl_linear.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/369e62e360f99dd59300f7f5a5a3d499/material-1.0.0/res/interpolator/mtrl_linear.xml"
+    }
+]

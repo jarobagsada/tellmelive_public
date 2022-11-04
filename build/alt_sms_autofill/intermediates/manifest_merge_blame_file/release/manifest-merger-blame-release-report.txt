@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alt_sms_autofill" >
+4
+5    <uses-sdk android:minSdkVersion="19" />
+5-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+7-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:4:5-74
+7-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:4:22-72
+8    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+8-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:5:5-76
+8-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:5:22-74
+9    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+9-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:6:5-69
+9-->/Users/kdpro/Applications/FlutterWork/flutter/.pub-cache/hosted/pub.dartlang.org/alt_sms_autofill-1.0.0/android/src/main/AndroidManifest.xml:6:22-67
+10
+11</manifest>

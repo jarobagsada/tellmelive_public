@@ -1,0 +1,8 @@
+com/alt_sms_autofill/AltSmsAutofillPlugin.java
+ com.alt_sms_autofill.AltSmsAutofillPlugin
+ com.alt_sms_autofill.AltSmsAutofillPlugin$1
+ com.alt_sms_autofill.AltSmsAutofillPlugin$MySMSBroadcastReceive
+com/alt_sms_autofill/BuildConfig.java
+ com.alt_sms_autofill.BuildConfig
+com/alt_sms_autofill/SmsListener.java
+ com.alt_sms_autofill.SmsListener

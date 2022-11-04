@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/connectivity_plus/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/f6db85e083e679e6b53163595f1fb9d8/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

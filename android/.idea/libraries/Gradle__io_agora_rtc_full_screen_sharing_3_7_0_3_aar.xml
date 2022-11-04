@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.agora.rtc:full-screen-sharing:3.7.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3720876d69f8cd5fe45059096d2eb819/jetified-full-screen-sharing-3.7.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3720876d69f8cd5fe45059096d2eb819/jetified-full-screen-sharing-3.7.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3720876d69f8cd5fe45059096d2eb819/jetified-full-screen-sharing-3.7.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

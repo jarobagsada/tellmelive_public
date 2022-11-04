@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "664047621805",
+    "project_id": "tellmelive-f9c3f",
+    "storage_bucket": "tellmelive-f9c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664047621805:android:1d624672b6272a78d01824",
+        "android_client_info": {
+          "package_name": "com.tml.miumiu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664047621805-je84dje4hvrmg3ucfeho5rmloc6f0i51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tml.miumiu",
+            "certificate_hash": "0d53cc56bec41094feb11fe73ff90b9d3923e44c"
+          }
+        },
+        {
+          "client_id": "664047621805-e7tcaunbq03cvma9a4in6f1ueqi4ap2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjXLIybPrwdaGABBlP1-wr9wPiTDSsD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664047621805-e7tcaunbq03cvma9a4in6f1ueqi4ap2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

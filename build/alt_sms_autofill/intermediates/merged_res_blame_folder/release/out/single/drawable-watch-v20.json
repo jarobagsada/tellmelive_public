@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/alt_sms_autofill/intermediates/res/merged/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/81ef1771c63170781f4a6233d3bd1bd5/jetified-play-services-auth-18.1.0/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

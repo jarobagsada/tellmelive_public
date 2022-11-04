@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tellme live</string>
+    <string name="facebook_app_id">291078222044403</string>
+    <string name="fb_login_protocol_scheme">fb291078222044403</string>
+    <string name="default_channel_id">com.tml.miumiu.notification</string>
+<!--    <string name="app_name">miumiu</string>-->
+<!--    <string name="facebook_app_id">238683204126276</string>-->
+<!--    <string name="fb_login_protocol_scheme">fb238683204126276</string>-->
+</resources>

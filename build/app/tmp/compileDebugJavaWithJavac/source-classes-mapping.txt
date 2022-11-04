@@ -1,0 +1,8 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/tml/miumiu/Application.java
+ com.tml.miumiu.Application
+com/tml/miumiu/BuildConfig.java
+ com.tml.miumiu.BuildConfig
+io/flutter/plugins/AppFireBaseService.java
+ io.flutter.plugins.AppFireBaseService

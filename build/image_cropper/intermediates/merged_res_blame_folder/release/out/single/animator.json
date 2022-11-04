@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_open_exit.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_close_exit.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_close_enter.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/Applications/Narendra Flutter Project/tell_me_live/build/image_cropper/intermediates/res/merged/release/animator/fragment_open_enter.xml",
+        "source": "/Users/kdpro/.gradle/caches/transforms-2/files-2.1/c67e082d30f4f4aa1c3807209125f401/fragment-1.3.4/res/animator/fragment_open_enter.xml"
+    }
+]
